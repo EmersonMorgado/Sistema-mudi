@@ -15,7 +15,7 @@ Utilizamos o Spring Data na camada de persistência com Mariadb.
  
  -> Spring Data JPA para consultas, filtros e registros em Banco de Dados;
  
- -> Spting Security
+ -> Spring Security
  
  -> MariaDb;
  
