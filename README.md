@@ -1,3 +1,5 @@
+# Mudi
+
 O projeto tem como finalidade implementar uma aplicação web com os padrões MVC e Rest, verificar o funcionamento das tecnologias e estudar suas aplicabilidades. 
 
 A aplicação web utiliza o padrão MVC com Framework Spring e Thymeleaf + Expression Language para renderizar as páginas relacionadas ao login, home e formulario de pedidos. 
