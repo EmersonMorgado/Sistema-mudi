@@ -10,7 +10,7 @@ O controles de autenticação e validação dos usuários utilizam os recursos d
 
 Utilizamos o Spring Data na camada de persistência com Mariadb.
 
-# Tecnologias utilizadas no projeto:
+# Tecnologias utilizadas no projeto
  -> Spring Boot;
  
  -> Spring Data JPA para consultas, filtros e registros em Banco de Dados;
@@ -27,11 +27,11 @@ Utilizamos o Spring Data na camada de persistência com Mariadb.
  
  -> Cache para as consultas rápida dos pedidos.
   
-# Descrição resumida da aplicação:
+# Descrição resumida da aplicação
 
 A aplicação permite que um viajante compre produtos, em suas viagens, para as pessoas interessadas. O viajante cadastra os produtos que pode levar (descrição, foto e preço) e as pessoas interessadas fazem ofetas de aquisição destes produtos. Se o viajante gostar da oferta ele marca como aceita, compra o produto e o entrega ao solicitante pelo valor negociado.
 
-# Dinâmica da aplicação:
+# Dinâmica da aplicação
 
  O Viajante cadastra os produtos (foto, descrição e preço) que pode trazer da viagem realizada.
  
@@ -39,5 +39,5 @@ A aplicação permite que um viajante compre produtos, em suas viagens, para as 
  
  O vendedor por sua vez aceita ou recusa a oferta dada para o produto que ele cadastrou. 
   
- # Fonte de estudo. 
+ # Fonte de estudo
  Aplicação tem como base o curso de Spring MVC realizado na plataforma alura.com.br.
