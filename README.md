@@ -2,13 +2,15 @@
 
 O projeto tem como finalidade implementar uma aplicação web com os padrões MVC e Rest, verificar o funcionamento das tecnologias e estudar suas aplicabilidades. 
 
-A aplicação web utiliza o padrão MVC com Framework Spring e Thymeleaf + Expression Language para renderizar as páginas relacionadas ao login, home e formulario de pedidos. 
+A aplicação utiliza Spring e Thymeleaf para renderizar as páginas relacionadas ao login, home e formulario de pedidos. 
 
-Para a função de envio de ofertas, foi utilizado padrão Rest para renderização da lista de ofertas, no lado do cliente, utilizando axios com Vue.js. Nesta etapa, a aplicação web consome recursos Rest e renderiza a página html utilizando Vue.js de forma prograsiva e dinâmica. 
+Para a função de envio de ofertas foi utilizado o padrão Rest para gerar a lista de ofertas em JSON. 
 
-O controles de autenticação e validação dos usuários utilizam os recursos do projeto Spting Security com autenticação por sessão e armazenamento de senha com bcrypt, na base de dados.
+No lado do cliente, utilizando axios com Vue.js. Nesta etapa, a aplicação consome recursos Rest e renderiza as páginas HTML utilizando Vue.js de forma progressiva e dinâmica. 
 
-Utilizamos o Spring Data na camada de persistência com Mariadb.
+O controles de autenticação e validação dos usuários utilizam os recursos do projeto Spting Security com autenticação por sessão e armazenamento de senha com bcrypt.
+
+Utilizamos o Spring Data JPA na camada de persistência com Mariadb.
 
 # Tecnologias utilizadas no projeto
  -> Spring Boot;
@@ -19,7 +21,7 @@ Utilizamos o Spring Data na camada de persistência com Mariadb.
  
  -> MariaDb;
  
- -> Bootstrap para estilos de CSS;
+ -> Bootstrap;
  
  -> Thymeleaf na rendização de páginas HTML utilizando expression language;
  
